@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer a {
+  text-decoration: underline;
+}
+
+@media(min-width : 640px){
+  .carousel img{
+    height: 48rem;
+  }
+}
+
